@@ -7,34 +7,56 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>This is the largest header</h1>
-    <h2>Second largest header</h2>
-    <h3>Thirsd largest header</h3>
-    <h4>Fourth largest header</h4>
-    <h5>Fifth largest header</h5>
-    <h6>Sixth lartest header</h6>
-    <p>This is a paragraph</p>
+    <header>
+        <h1>This is the largest header</h1>
+        <p>This is a paragraph</p>
+    </header>
+    <main>
+        <!-- Adding an external link -->
+        <a href="https://google.com" target="_blank">Link to google</a>
 
-    <!-- Adding an external link -->
-     <a href="https://google.com" target="_blank">Link to google</a>
-
-     <!-- Creating a table -->
-      <table>
-        <thead>
-          <tr>
-            <td>Column One</td>
-            <td>Column Two</td>
-            <td>Column Three</td>
-          </tr>  
-        </thead>
-        <tbody>
-        <tr>
-            <td>Column One data</td>
-            <td>Column Two data</td>
-            <td>Column Three data</td>
-          </tr>  
-        </tbody>
+        <!-- Creating a table -->
+        <table>
+            <thead>
+            <tr>
+                <td>Column One</td>
+                <td>Column Two</td>
+                <td>Column Three</td>
+            </tr>  
+            </thead>
+            <tbody>
+            <tr>
+                <td>Column One data</td>
+                <td>Column Two data</td>
+                <td>Column Three data</td>
+            </tr>  
+            <tr>
+                <td>Column One data</td>
+                <td>Column Two data</td>
+                <td>Column Three data</td>
+            </tr>  
+            <tr>
+                <td>Column One data</td>
+                <td>Column Two data</td>
+                <td>Column Three data</td>
+            </tr>  
+            <tr>
+                <td>Column One data</td>
+                <td>Column Two data</td>
+                <td>Column Three data</td>
+            </tr>  
+            <tr>
+                <td>Column One data</td>
+                <td>Column Two data</td>
+                <td>Column Three data</td>
+            </tr>  
+            </tbody>
       </table>
+    </main>
+<footer>
+    <p>Date</p>
+    <p>Karen Sturgeon</p>
+</footer>
 
 
 </body>

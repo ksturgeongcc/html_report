@@ -1,3 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
-    background-color: aquamarine;
+    height: 100vh;
+    width: 100vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    height: 25%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+main{
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center ;
+
+}
+/* style table */
+table{
+    width: 70%;
+}
+td{
+    border: 1px solid grey;
+    padding: 5px 0;
+}
+thead tr{
+    background-color: lightcyan;
+}
+tbody tr:nth-child(even){
+    background-color: lightgray;
+}
+footer{
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center ;
 }
